@@ -15,6 +15,8 @@
 		5A373EB22250B40800AF5342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A373EB12250B40800AF5342 /* Assets.xcassets */; };
 		5A373EB52250B40800AF5342 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A373EB32250B40800AF5342 /* LaunchScreen.storyboard */; };
 		5A373EC02250B40800AF5342 /* MoveAndMatch2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A373EBF2250B40800AF5342 /* MoveAndMatch2Tests.swift */; };
+		5A373ECB2250B52500AF5342 /* CardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A373ECA2250B52500AF5342 /* CardContent.swift */; };
+		5A373ECD2250BACA00AF5342 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A373ECC2250BACA00AF5342 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		5A373EBB2250B40800AF5342 /* MoveAndMatch2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveAndMatch2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A373EBF2250B40800AF5342 /* MoveAndMatch2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveAndMatch2Tests.swift; sourceTree = "<group>"; };
 		5A373EC12250B40800AF5342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A373ECA2250B52500AF5342 /* CardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContent.swift; sourceTree = "<group>"; };
+		5A373ECC2250BACA00AF5342 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				5A373EA82250B40600AF5342 /* DocumentBrowserViewController.swift */,
 				5A373EAA2250B40600AF5342 /* DocumentViewController.swift */,
 				5A373EAC2250B40600AF5342 /* Document.swift */,
+				5A373ECA2250B52500AF5342 /* CardContent.swift */,
+				5A373ECC2250BACA00AF5342 /* Card.swift */,
 				5A373EAE2250B40600AF5342 /* Main.storyboard */,
 				5A373EB12250B40800AF5342 /* Assets.xcassets */,
 				5A373EB32250B40800AF5342 /* LaunchScreen.storyboard */,
@@ -204,6 +210,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A373EAD2250B40600AF5342 /* Document.swift in Sources */,
+				5A373ECD2250BACA00AF5342 /* Card.swift in Sources */,
+				5A373ECB2250B52500AF5342 /* CardContent.swift in Sources */,
 				5A373EAB2250B40600AF5342 /* DocumentViewController.swift in Sources */,
 				5A373EA92250B40600AF5342 /* DocumentBrowserViewController.swift in Sources */,
 				5A373EA72250B40600AF5342 /* AppDelegate.swift in Sources */,
@@ -371,6 +379,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E9MW74DJ4Y;
 				INFOPLIST_FILE = MoveAndMatch2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,7 +387,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.sweeper777.MoveAndMatch2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -389,6 +398,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E9MW74DJ4Y;
 				INFOPLIST_FILE = MoveAndMatch2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,7 +406,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.sweeper777.MoveAndMatch2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

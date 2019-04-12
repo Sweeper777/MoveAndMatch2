@@ -10,13 +10,15 @@
 		5A373EA72250B40600AF5342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A373EA62250B40600AF5342 /* AppDelegate.swift */; };
 		5A373EA92250B40600AF5342 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A373EA82250B40600AF5342 /* DocumentBrowserViewController.swift */; };
 		5A373EAB2250B40600AF5342 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A373EAA2250B40600AF5342 /* DocumentViewController.swift */; };
-		5A373EAD2250B40600AF5342 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A373EAC2250B40600AF5342 /* Document.swift */; };
+		5A373EAD2250B40600AF5342 /* ProjectDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A373EAC2250B40600AF5342 /* ProjectDocument.swift */; };
 		5A373EB02250B40600AF5342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A373EAE2250B40600AF5342 /* Main.storyboard */; };
 		5A373EB22250B40800AF5342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A373EB12250B40800AF5342 /* Assets.xcassets */; };
 		5A373EB52250B40800AF5342 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A373EB32250B40800AF5342 /* LaunchScreen.storyboard */; };
 		5A373EC02250B40800AF5342 /* MoveAndMatch2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A373EBF2250B40800AF5342 /* MoveAndMatch2Tests.swift */; };
 		5A373ECB2250B52500AF5342 /* CardContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A373ECA2250B52500AF5342 /* CardContent.swift */; };
 		5A373ECD2250BACA00AF5342 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A373ECC2250BACA00AF5342 /* Card.swift */; };
+		5A373ECF2250CDF600AF5342 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A373ECE2250CDF600AF5342 /* Project.swift */; };
+		5A373ED12250D02F00AF5342 /* ProjectBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A373ED02250D02F00AF5342 /* ProjectBackground.swift */; };
 		8E3CB1354108D5E24E53B369 /* Pods_MoveAndMatch2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A43C28794E68FB148EDE5BA /* Pods_MoveAndMatch2Tests.framework */; };
 		8F5D88E150B47A8B3ADD25EE /* Pods_MoveAndMatch2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B6B83C34BAA08386FB0C89 /* Pods_MoveAndMatch2.framework */; };
 /* End PBXBuildFile section */
@@ -37,7 +39,7 @@
 		5A373EA62250B40600AF5342 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A373EA82250B40600AF5342 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
 		5A373EAA2250B40600AF5342 /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
-		5A373EAC2250B40600AF5342 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		5A373EAC2250B40600AF5342 /* ProjectDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDocument.swift; sourceTree = "<group>"; };
 		5A373EAF2250B40600AF5342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A373EB12250B40800AF5342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A373EB42250B40800AF5342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		5A373EC12250B40800AF5342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A373ECA2250B52500AF5342 /* CardContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContent.swift; sourceTree = "<group>"; };
 		5A373ECC2250BACA00AF5342 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		5A373ECE2250CDF600AF5342 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		5A373ED02250D02F00AF5342 /* ProjectBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectBackground.swift; sourceTree = "<group>"; };
 		79B6B83C34BAA08386FB0C89 /* Pods_MoveAndMatch2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveAndMatch2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A43C28794E68FB148EDE5BA /* Pods_MoveAndMatch2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoveAndMatch2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF642CE235450D7F44E83640 /* Pods-MoveAndMatch2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoveAndMatch2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoveAndMatch2Tests/Pods-MoveAndMatch2Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,9 +124,11 @@
 				5A373EA62250B40600AF5342 /* AppDelegate.swift */,
 				5A373EA82250B40600AF5342 /* DocumentBrowserViewController.swift */,
 				5A373EAA2250B40600AF5342 /* DocumentViewController.swift */,
-				5A373EAC2250B40600AF5342 /* Document.swift */,
+				5A373EAC2250B40600AF5342 /* ProjectDocument.swift */,
 				5A373ECA2250B52500AF5342 /* CardContent.swift */,
+				5A373ED02250D02F00AF5342 /* ProjectBackground.swift */,
 				5A373ECC2250BACA00AF5342 /* Card.swift */,
+				5A373ECE2250CDF600AF5342 /* Project.swift */,
 				5A373EAE2250B40600AF5342 /* Main.storyboard */,
 				5A373EB12250B40800AF5342 /* Assets.xcassets */,
 				5A373EB32250B40800AF5342 /* LaunchScreen.storyboard */,
@@ -313,11 +319,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A373EAD2250B40600AF5342 /* Document.swift in Sources */,
+				5A373EAD2250B40600AF5342 /* ProjectDocument.swift in Sources */,
+				5A373ED12250D02F00AF5342 /* ProjectBackground.swift in Sources */,
 				5A373ECD2250BACA00AF5342 /* Card.swift in Sources */,
 				5A373ECB2250B52500AF5342 /* CardContent.swift in Sources */,
 				5A373EAB2250B40600AF5342 /* DocumentViewController.swift in Sources */,
 				5A373EA92250B40600AF5342 /* DocumentBrowserViewController.swift in Sources */,
+				5A373ECF2250CDF600AF5342 /* Project.swift in Sources */,
 				5A373EA72250B40600AF5342 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
